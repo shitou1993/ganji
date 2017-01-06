@@ -3,10 +3,6 @@ from page_parsing import get_item_info_from, url_list, item_info, get_links_from
 from channel_extracing import channel_list
 
 
-# index_urls = [item['url'] for item in item_info.find()]
-# x = set(db_urls)
-# y = set(index_urls)
-# rest_of_urls = x-y
 
 def get_all_links_from(channel):
     for i in range(1, 40):
